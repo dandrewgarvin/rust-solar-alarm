@@ -1,0 +1,13 @@
+[package]
+name = "solar"
+version = "1.0.0"
+authors = ["Andrew Garvin <me@andrewgarv.in>"]
+edition = "2018"
+
+[dependencies]
+http = "0.2.4"
+vercel_lambda = "*"
+
+[lib]
+name = "util"
+path = "_util.rs"
